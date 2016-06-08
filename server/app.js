@@ -7,6 +7,6 @@ var server = app.listen(process.env.PORT || 8080, function(){
 
 app.get('/', function(req, res){
   res.writeHead(200);
-  res.write('guess what, you did it!');
+  res.write('Guess what, you did it!  Also, Hello World!');
   res.end();
 });
